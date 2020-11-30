@@ -1,8 +1,4 @@
-$background: rgb(226, 226, 212);
-
-* {
-  background-color: $background;
-}
+@import '../styles';
 
 h1 {
   color: black;

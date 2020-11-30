@@ -1,0 +1,14 @@
+// Variables
+$background: rgb(226, 226, 212);
+
+// Mixins
+@mixin flexCenter() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  background-color: $background;
+}
