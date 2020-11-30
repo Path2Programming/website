@@ -1,11 +1,13 @@
+$background: rgb(226, 226, 212);
+
 * {
-  background-color: #e2e2d4;
+  background-color: $background;
 }
 
 h1 {
   color: black;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-top: 0px;
   padding: 10px;
 }
@@ -14,4 +16,3 @@ p {
   text-align: center;
   margin-top: 300px;
 }
-/*# sourceMappingURL=App.css.map */
