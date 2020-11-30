@@ -1,5 +1,15 @@
+// Import Open Sans font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 // Variables
+$primary: rgb(70, 236, 153);
 $background: rgb(226, 226, 212);
+
+$black: #000;
+$light-black: rgb(45, 45, 45);
+
+$white: #fff;
+$light-white: rgb(224, 224, 224);
 
 // Mixins
 @mixin flexCenter() {
@@ -10,5 +20,15 @@ $background: rgb(226, 226, 212);
 }
 
 * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
   background-color: $background;
 }

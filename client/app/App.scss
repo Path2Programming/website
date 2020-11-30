@@ -10,5 +10,11 @@ h1 {
 
 p {
   text-align: center;
-  margin-top: 300px;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  z-index: -1;
 }
