@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './homepage.scss';
 
 class Homepage extends Component {
   render() {
     return (
       <div>
-        <p>Homepage</p>
+        <div id="welcome-banner">Welcome To EKY Coding!</div>
       </div>
     );
   }

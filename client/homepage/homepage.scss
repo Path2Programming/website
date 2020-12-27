@@ -1,0 +1,18 @@
+//import styles sheet
+@import '../styles';
+
+//variables
+$blue: rgb(13, 77, 173);
+$background: rgb(226, 226, 212);
+$white: #fff;
+
+
+#welcome-banner{
+    color: $white;
+    background-color: $blue;
+
+    @include flexCenter();
+    padding: 10px;
+
+    font-size: 50px;
+}
