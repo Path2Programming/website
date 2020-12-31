@@ -2,17 +2,77 @@
 @import '../styles';
 
 //variables
-$blue: rgb(13, 77, 173);
-$background: rgb(226, 226, 212);
+$dark-blue: rgb(2,48,179);
+$light-blue: rgb(32,70,245);
 $white: #fff;
+$black: #000;
 
 
 #welcome-banner{
     color: $white;
-    background-color: $blue;
+    background-color: $dark-blue;
 
     @include flexCenter();
     padding: 10px;
 
     font-size: 50px;
+}
+
+.program-glimpse{
+    background: $light-blue;
+    color: $white;
+
+    border:solid 2px $black;
+    border-radius: 15px;
+
+    position: absolute;
+    top:500px;
+
+    width: 300px;
+    padding:0px 10px 100px 10px;
+    @include flexCenter();
+}
+
+#comprehensive{
+    left: 25%;
+    margin-left: -150px;
+}
+
+#help{
+    left: 50%;
+    margin-left: -150px;
+}
+
+#curriculum{ 
+    left: 75%;
+    margin-left: -150px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+
+    position: absolute;
+    top:350px;
+    margin-left: -50px;
+
+    padding:5px;
+    @include flexCenter();
+
+    background-color: $black;
+    image-rendering: crisp-edges;
+}
+
+#compre-img{
+    left:25%;
+    
+}
+
+#help-icon{
+    left:50%;
+}
+
+#info-page{
+    left:75%;
 }
