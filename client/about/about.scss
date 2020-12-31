@@ -1,1 +1,31 @@
+//import styles sheet
 @import '../styles';
+
+//variables 
+$white: #FFF;
+$dark-blue: rgb(13, 77, 173);
+$black: #000;
+
+#about-banner{
+    color: $white;
+    background-color: $dark-blue;
+
+    @include flexCenter();
+    padding: 10px;
+
+    font-size: 50px;
+}
+#mission-header{
+    font-size: 40px;
+    text-decoration: underline 5px dashed $dark-blue;
+    
+    position: absolute;
+    left:25px;
+}
+
+#mission-statement{
+    position: absolute;
+    top:200px;
+    left:3%;
+
+}
