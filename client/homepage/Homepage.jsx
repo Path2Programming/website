@@ -10,12 +10,20 @@ class Homepage extends Component {
     return (
       <div>
         <div id="welcome-banner">Welcome To EKY Coding!</div>
+
         <div className="program-glimpse" id="comprehensive">Comprehensive Lessons</div>
         <img src={comprIcon} id="compre-img" className="img" />
+
         <div className="program-glimpse" id="help">Easy Access To Help</div>
+        <div></div>
         <img src={help} id="help-icon" className="img" />
+
+
         <div className="program-glimpse" id="curriculum">Immersive Curriculum</div>
+        <div> </div>
         <img src={info} id="info-page" className="img" />
+
+
       </div>
     );
   }
