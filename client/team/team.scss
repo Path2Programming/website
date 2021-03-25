@@ -1,1 +1,36 @@
 @import '../styles';
+
+$white: rgb(255, 255, 255);
+$black: rgb(0,0,0);
+
+.profile{
+    background-color: $white;
+
+    width: 25vw;
+    height: 25vh;
+
+    position: absolute;
+    top: 35%;
+}
+
+
+.pfp{
+    background-image: url('../images/tempProfilePic.png');
+    width: 250px;
+    height: 190px;
+
+    border: 1px solid ;
+    border-radius: 100%;
+}
+
+#Arthi{
+    left: 5%;
+}
+
+#Adi{
+    left: 38%;
+ }
+
+#Pranav{
+    left: 70%;
+}
