@@ -6,21 +6,18 @@ function Team() {
   return (
     <div>
       <div className="profile" id="Adi">
-        {/* <img src="../images/tempProfilePic.png" id="Adipfp"></img> */}
-        <input className="pfp" type="button"></input>
+        <div className="pfp"></div>
         <p>Aditya Gollamudi, Founder and Executive Director</p>
       </div>
 
       <div className="profile" id="Arthi">
-        {/* <img src="../images/tempProfilePic.png" className="pfp"></img> */}
-        <input className="pfp" type="button"></input>
-        <p>Arthi</p>
+        <div className="pfp"></div>
+        <p>Arthi Sundar, Growth and Marketing</p>
       </div>
 
       <div className="profile" id="Pranav">
-        {/* <img src="../images/tempProfilePic.png" className="pfp"></img> */}
-        <input className="pfp" type="button"></input>
-        <p>Pranav</p>
+        <div className="pfp"></div>
+        <p>Pranav Gangumolu, Head of Logistics</p>
       </div>
     </div>
   )
