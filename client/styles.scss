@@ -3,10 +3,15 @@
 
 // Variables
 $primary: rgb(70, 236, 153);
+$primary: rgb(80, 162, 255);
 $background: rgb(226, 226, 212);
+$background: rgb(116, 116, 116);
+
 
 $black: #000;
 $light-black: rgb(45, 45, 45);
+$light-gray: rgb(173,173,173);
+
 
 $white: #fff;
 $light-white: rgb(224, 224, 224);
@@ -30,5 +35,5 @@ body {
 }
 
 body {
-  background-color: $background;
+  background-color: $white;
 }

@@ -2,28 +2,62 @@
 
 $white: rgb(255, 255, 255);
 $black: rgb(0,0,0);
+$green: rgb(90,199,130);
+$light-gray: rgb(206, 204, 204);
+$dark-gray: rgb(93, 88, 88);
+$background: rgb(226, 226, 212);
+$test: rgb(163, 82, 238);
+$super-light-gray:rgb(226, 225, 225);
 
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#header{
+    background-color: inherit;
+    color: $dark-gray;
+
+    font-size: 400%;
+
+    position: relative;
+    margin-top: -1%;
+}
 .profile{
-    background-color: $white;
+    background-color: $dark-gray;
 
-    width: 25vw;
-    height: 50vh;
+    width: 20vw;
+    height: 60vh;
 
     position: absolute;
-    top: 25%;
+    top: 20%;
 
     text-align: center;
 
+    border-radius: 10px;
+
     p{
         position: relative;
-        margin-top: 20%;
+        margin-top: 5%;
 
-        text-align: center;
-        text-decoration:underline;
+        color: $white;
+        text-align: left;
+        margin-left: 1vw;
         
         font-size: 125%;
     }
 
+}
+
+#title{
+    position: relative;
+    margin-top: -5%;
+
+    font-size: 100%;
+
+    text-decoration: none;
+
+    color:$super-light-gray;
 }
 
 
@@ -31,27 +65,80 @@ $black: rgb(0,0,0);
     background-image: url('../images/AdiPfp.jpeg');
     background-size: 100%;
 
-    height: 250px;
-    width: 200px;
+    
+    width: 98%;
+    height: 70%;
 
-    border: 1px solid ;
-    border-radius: 10%;
+    display: block;
+
+    border-radius: inherit;
 
     position: relative;
-    top:5%;
-    left: 22%;
+    top:1%;
+    left: 1%;
 
 }
 
 #Adi{
-    left: 5%;
- }
-
-#Arthi{
-    left: 38%;
+    left: 10%;
 }
 
+#Arthi{
+    left: 40%;
+}
 
 #Pranav{
     left: 70%;
+}
+
+#members{
+    background-color: $light-gray;
+
+    width: 90%;
+    height: 75%;
+
+    position: absolute;
+
+    top: 15%;
+    left: 5%;
+
+    border-radius: 10px;
+}
+
+
+.linkedIn{
+    background-image: url( "../images/linkedIn.png");
+    background-size: 85%;
+    background-position: center;
+
+    height: 40px;
+    width: 40px;
+
+    border: none;
+    border-radius: 20px;
+
+    position: relative;
+    margin-left: -60%;
+    margin-top: 1%;
+
+    cursor: pointer;
+
+}
+
+.GitHub{
+    background-image: url( "../images/GitHub.png");
+    background-size: 100%;
+    background-position: center;
+
+    height: 40px;
+    width: 40px;
+
+    border: none;
+    border-radius: 20px;
+
+    position: relative;
+    margin-left: 5%;
+    margin-top: 1%;
+
+    cursor: pointer;
 }

@@ -5,19 +5,50 @@ import './team.scss';
 function Team() {
   return (
     <div>
+      {/* <h1 id="header">Meet The Team</h1> */}
+
+      <div id="members"></div>
+
       <div className="profile" id="Adi">
         <div className="pfp"></div>
-        <p>Aditya Gollamudi, Founder and Executive Director</p>
+        <p>Aditya Gollamudi</p>
+        <p id="title">Founder and Executive Director</p>
+
+        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank">
+          <input className="linkedIn" id="AdiLI" type="button"></input>
+        </a>
+
+        <a href="https://github.com/Adi-Goll" target="_blank">
+          <input className="GitHub" id="AdiGH" type="button"></input>
+        </a>
       </div>
 
       <div className="profile" id="Arthi">
         <div className="pfp"></div>
-        <p>Arthi Sundar, Growth and Marketing</p>
+        <p>Arthi Sundar</p>
+        <p id="title">Growth and Marketing</p>
+
+        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank">
+          <input className="linkedIn" id="AdiLI" type="button"></input>
+        </a>
+
+        <a href="https://github.com/Adi-Goll" target="_blank">
+          <input className="GitHub" id="AdiGH" type="button"></input>
+        </a>
       </div>
 
       <div className="profile" id="Pranav">
         <div className="pfp"></div>
-        <p>Pranav Gangumolu, Head of Logistics</p>
+        <p>Pranav Gangumolu</p>
+        <p id="title">Head of Logistics</p>
+
+        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank">
+          <input className="linkedIn" id="AdiLI" type="button"></input>
+        </a>
+
+        <a href="https://github.com/Adi-Goll" target="_blank">
+          <input className="GitHub" id="AdiGH" type="button"></input>
+        </a>
       </div>
     </div>
   )
