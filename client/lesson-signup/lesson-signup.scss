@@ -1,1 +1,62 @@
 @import '../styles';
+
+$blue: rgb(79, 152, 236);
+
+
+
+#form-div{
+    @include flexCenter();
+    background-color: #FFFF;
+    color: #000;
+
+    border: 5px solid $blue;
+    height: 250px;
+    width: 250px;
+
+    margin-left: 600px;
+}
+
+#sign-up-form{
+    margin:0 auto;
+
+    padding:20px 40px;
+
+    border-radius: 100px;
+
+    input[type=email], [type=text]{
+        font-family: 'Arial';
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid $blue;
+    }
+
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+}
+
+#header{
+    font-family: 'Arial';
+    text-align: center;
+    margin-top: -100px;
+}
+
+#email{
+}
+
+#name{
+   
+}
+
+#sign-up-button{
+    font-family: 'Arial';
+    padding: 5px;
+
+    position: relative;
+    top:20px;
+
+    background-color: $blue;
+
+    border: 1px solid #000;
+    border-radius: 5px;
+}
