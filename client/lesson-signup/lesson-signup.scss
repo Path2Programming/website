@@ -1,62 +1,85 @@
 @import '../styles';
 
-$blue: rgb(79, 152, 236);
+$black:rgb(0,0,0);
+$shadow: rgb(0, 0, 0);
+
+#page{
+    background-image: url('../images/codingClassroom.jpeg');
+    background-size:cover;
+    height: 100%;
+}
 
 
+#page-title{
+    text-align: center;
+
+    font-size: 200%;
+}
 
 #form-div{
-    @include flexCenter();
-    background-color: #FFFF;
-    color: #000;
+    z-index: 1;
+    background-color: $white;
+    box-shadow: -10px 10px 40px $shadow;
+    border-radius: 10px;
 
-    border: 5px solid $blue;
-    height: 250px;
-    width: 250px;
+    height: 55vh;
+    width: 35vw;
 
-    margin-left: 600px;
+    position: relative;
+    left: 32%;
+
+    top: 10%;
+    padding-top: 1%;
 }
 
 #sign-up-form{
-    margin:0 auto;
-
-    padding:20px 40px;
-
-    border-radius: 100px;
-
-    input[type=email], [type=text]{
-        font-family: 'Arial';
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid $blue;
-    }
+    // position: absolute;
 
     input:focus, textarea:focus, select:focus{
         outline: none;
     }
 }
 
-#header{
-    font-family: 'Arial';
-    text-align: center;
-    margin-top: -100px;
+.item{
+    font-size:1rem;
+    background: transparent;
+
+
+    border: none;
+    border-bottom: 2px solid $primary;
+
+    position: relative;
+    left:2vw;
+
+    height: 5vh;
+    width: 30vw;
+}
+
+#upcoming-lessons{
+    top: 5vh;
 }
 
 #email{
+    top: 7vh;
 }
 
 #name{
-   
+    top:9vh;
 }
 
+
 #sign-up-button{
-    font-family: 'Arial';
-    padding: 5px;
+    font-size: 150%;
 
     position: relative;
-    top:20px;
+    top: 18vh;
+    left: 2.5vw;
 
-    background-color: $blue;
+    background-color: $primary;
 
-    border: 1px solid #000;
+    border: 1px solid $black;
     border-radius: 5px;
+
+    height: 5vh;
+    width: 30vw;
 }

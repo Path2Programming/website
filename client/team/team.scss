@@ -26,6 +26,8 @@ input:focus, textarea:focus, select:focus{
 .profile{
     background-color: $dark-gray;
 
+    box-shadow: -5px 5px 20px $black;
+
     width: 20vw;
     height: 60vh;
 
