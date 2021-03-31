@@ -14,7 +14,7 @@ function Team() {
         <p>Aditya Gollamudi</p>
         <p id="title">Founder and Executive Director</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
           <input className="linkedIn" id="AdiLI" type="button"></input>
         </a>
 
@@ -28,7 +28,7 @@ function Team() {
         <p>Arthi Sundar</p>
         <p id="title">Growth and Marketing</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
           <input className="linkedIn" id="AdiLI" type="button"></input>
         </a>
 
@@ -42,7 +42,7 @@ function Team() {
         <p>Pranav Gangumolu</p>
         <p id="title">Head of Logistics</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
           <input className="linkedIn" id="AdiLI" type="button"></input>
         </a>
 
