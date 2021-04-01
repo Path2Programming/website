@@ -28,7 +28,7 @@ function LessonSignup() {
       <div id="page">
         <div id="form-div">
           <h3 id="page-title">Lesson Signup</h3>
-          <form id="sign-up-form" name="signedUp" onSubmit={handleSubmit}>
+          <form id="sign-up-form" name="signedUp" onSubmit={handleSubmit} action='http://localhost:5000/' method="post">
 
             <select id="upcoming-lessons" className="item" name="lesson" onChange={handleChange} required>
               <option disable selected value="" required>Upcoming Lessons</option>

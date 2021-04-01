@@ -18,9 +18,9 @@ app.use(express.urlencoded({ extended: true }));
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 
 
-app.get('/', (req, res) => {
+app.post('/', (req, res) => {
     console.log("NEW SIGNUP!");
-    message('hi');
+    message(req.body.email);
     return res.sendStatus(200);
 })
 
