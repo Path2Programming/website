@@ -25,7 +25,7 @@ app.post('/', (req, res) => {
     console.log("");
     console.log(req.body);
     message(messageText);
-    return res.sendStatus(200);
+    return res.status(200).redirect('http://localhost:3000/thank-you');
 })
 
 // Error-handler

@@ -58,6 +58,10 @@ class App extends Component {
               <Route path="/meet-the-team">
                 <Team />
               </Route>
+
+              <Route path="/thank-you">
+                <h1>THANK YOU FOR SUBMITTING</h1>
+              </Route>
             </div>
           </Switch>
         </div>
