@@ -19,8 +19,12 @@ app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 
 
 app.post('/', (req, res) => {
-    console.log("NEW SIGNUP!");
-    message(req.body.email);
+    const { lesson, email, name } = req.body;
+
+    const messageText = `\nNew signup!\nName: ${name}\nEmail: ${email}\nLesson: ${lesson}`
+    console.log("");
+    console.log(req.body);
+    message(messageText);
     return res.sendStatus(200);
 })
 
