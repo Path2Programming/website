@@ -38,9 +38,9 @@ function LessonSignup() {
             <option value="lesson3">04/15/2021 6:00pm EST - Introduction to the terminal</option>
           </select>
 
-          <input id="email" className="item" type="text" name="email" placeholder="Email Address" value="x" required></input>
+          <input id="email" className="item" type="text" name="email" placeholder="Email Address" required></input>
 
-          <input id="name" className="item" name="name" type="text" placeholder="Full Name" value="y" required></input>
+          <input id="name" className="item" name="name" type="text" placeholder="Full Name" required></input>
 
           <input type="submit" value="Submit" id="sign-up-button"></input>
 
