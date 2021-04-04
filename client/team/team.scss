@@ -64,10 +64,7 @@ input:focus, textarea:focus, select:focus{
 
 
 .pfp{
-    background-image: url('../images/AdiPfp.jpeg');
-    background-size: 100%;
 
-    
     width: 98%;
     height: 70%;
 
@@ -79,6 +76,20 @@ input:focus, textarea:focus, select:focus{
     top:1%;
     left: 1%;
 
+}
+
+#adi-pfp{
+    background-image: url('../images/AdiPfp.jpeg');
+    background-size: 100%;
+}
+
+#arthi-pfp{
+
+}
+
+#pranav-pfp{
+    background-image: url('../images/PranavPfp.jpeg');
+    background-size: 100%;
 }
 
 #Adi{
@@ -130,6 +141,42 @@ input:focus, textarea:focus, select:focus{
 .GitHub{
     background-image: url( "../images/GitHub.png");
     background-size: 100%;
+    background-position: center;
+
+    height: 40px;
+    width: 40px;
+
+    border: none;
+    border-radius: 20px;
+
+    position: relative;
+    margin-left: 5%;
+    margin-top: 1%;
+
+    cursor: pointer;
+}
+
+.instagram{
+    background-image: url( "../images/instagram.png");
+    background-size: 105%;
+    background-position: center;
+
+    height: 40px;
+    width: 40px;
+
+    border: none;
+    border-radius: 10px;
+
+    position: relative;
+    margin-left: -60%;
+    margin-top: 1%;
+
+    cursor: pointer;
+}
+
+.gmail{
+    background-image: url( "../images/gmailCircle.png");
+    background-size: 120%;
     background-position: center;
 
     height: 40px;
