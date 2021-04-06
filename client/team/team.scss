@@ -156,14 +156,14 @@ $icon-border-radius: 100vw;
 
 .instagram{
     background-image: url( "../images/instagram.png");
-    background-size: 105%;
+    background-size: 102%;
     background-position: center;
 
-    height: 40px;
-    width: 40px;
+    height: $icon-height;
+    width: $icon-width;
 
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 
     position: relative;
     margin-left: -60%;
@@ -177,11 +177,11 @@ $icon-border-radius: 100vw;
     background-size: 120%;
     background-position: center;
 
-    height: 40px;
-    width: 40px;
+    height: $icon-height;
+    width: $icon-width;
 
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
 
     position: relative;
     margin-left: 5%;
