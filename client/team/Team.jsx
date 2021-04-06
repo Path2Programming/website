@@ -14,11 +14,11 @@ function Team() {
         <p>Aditya Gollamudi</p>
         <p id="title">Founder and Executive Director</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank">
+        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
           <input className="linkedIn" id="AdiLI" type="button"></input>
         </a>
 
-        <a href="https://github.com/Adi-Goll" target="_blank">
+        <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
           <input className="GitHub" id="AdiGH" type="button"></input>
         </a>
       </div>
@@ -28,11 +28,11 @@ function Team() {
         <p>Arthi Sundar</p>
         <p id="title">Growth and Marketing</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi-a37248209/" target="_blank">
+        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
           <input className="linkedIn" id="AdiLI" type="button"></input>
         </a>
 
-        <a href="https://github.com/Adi-Goll" target="_blank">
+        <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
           <input className="GitHub" id="AdiGH" type="button"></input>
         </a>
       </div>
