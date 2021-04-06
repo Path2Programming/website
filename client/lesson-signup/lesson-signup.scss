@@ -1,85 +1,84 @@
 @import '../styles';
 
-$black:rgb(0,0,0);
+$black: rgb(0, 0, 0);
 $shadow: rgb(0, 0, 0);
 
-#page{
-    background-image: url('../images/codingClassroom.jpeg');
-    background-size:cover;
-    height: 100%;
+#page {
+  background-image: url('../images/codingClassroom.jpeg');
+  background-size: cover;
+  height: 100%;
 }
 
+#page-title {
+  text-align: center;
 
-#page-title{
-    text-align: center;
-
-    font-size: 200%;
+  font-size: 2.5vw;
 }
 
-#form-div{
-    z-index: 1;
-    background-color: $white;
-    box-shadow: -10px 10px 40px $shadow;
-    border-radius: 10px;
+#form-div {
+  z-index: 1;
+  background-color: $white;
+  box-shadow: -10px 10px 40px $shadow;
+  border-radius: 10px;
 
-    height: 55vh;
-    width: 35vw;
+  height: 55vh;
+  width: 35vw;
 
-    position: relative;
-    left: 32%;
+  position: relative;
+  left: 32%;
 
-    top: 10%;
-    padding-top: 1%;
+  top: 10%;
+  padding-top: 1%;
 }
 
-#sign-up-form{
-    // position: absolute;
+#sign-up-form {
+  // position: absolute;
 
-    input:focus, textarea:focus, select:focus{
-        outline: none;
-    }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
 }
 
-.item{
-    font-size:1rem;
-    background: transparent;
+.item {
+  font-size: 1.25vw;
+  background: transparent;
 
+  border: none;
+  border-bottom: 0.25vh solid $primary;
 
-    border: none;
-    border-bottom: 2px solid $primary;
+  position: relative;
+  left: 2vw;
 
-    position: relative;
-    left:2vw;
-
-    height: 5vh;
-    width: 30vw;
+  height: 5vh;
+  width: 30vw;
 }
 
-#upcoming-lessons{
-    top: 5vh;
+#upcoming-lessons {
+  top: 5vh;
 }
 
-#email{
-    top: 7vh;
+#email {
+  top: 7vh;
 }
 
-#name{
-    top:9vh;
+#name {
+  top: 9vh;
 }
 
+#sign-up-button {
+  font-size: 1.8vw;
 
-#sign-up-button{
-    font-size: 150%;
+  position: relative;
+  top: 17vh;
+  left: 2.5vw;
 
-    position: relative;
-    top: 18vh;
-    left: 2.5vw;
+  background-color: $primary;
 
-    background-color: $primary;
+  border: 1px solid $black;
+  border-radius: 5px;
 
-    border: 1px solid $black;
-    border-radius: 5px;
-
-    height: 5vh;
-    width: 30vw;
+  height: 5vh;
+  width: 30vw;
 }
