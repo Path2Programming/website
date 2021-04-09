@@ -21,6 +21,10 @@ function Team() {
         <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
           <input className="GitHub" id="AdiGH" type="button"></input>
         </a>
+
+        <a href="mailto:adigollamudi@gmail.com">
+          <input className="gmail" id="adi-gmail" type="button"></input>
+        </a>
       </div>
 
       <div className="profile" id="Arthi">
@@ -28,12 +32,8 @@ function Team() {
         <p>Arthi Sundar</p>
         <p id="title">Growth and Marketing</p>
 
-        <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
-          <input className="linkedIn" id="AdiLI" type="button"></input>
-        </a>
-
-        <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
-          <input className="GitHub" id="AdiGH" type="button"></input>
+        <a href="mailto:Arthibot@gmail.com">
+          <input className="gmail" id="arthi-gmail" type="button"></input>
         </a>
       </div>
 

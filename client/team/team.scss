@@ -88,6 +88,12 @@ select:focus {
     background-size: 100%;
 }
 
+#arthi-pfp{
+  background-image: url('../images/ArthiPfp2.jpeg');
+  background-size: 100%;
+}
+
+
 #Adi{
     left: 10%;
 }
@@ -130,7 +136,7 @@ $icon-border-radius: 100vw;
   border-radius: $icon-border-radius;
 
   position: relative;
-  margin-left: -60%;
+  margin-left: -40%;
   margin-top: 1%;
 
   cursor: pointer;
@@ -188,4 +194,8 @@ $icon-border-radius: 100vw;
     margin-top: 1%;
 
     cursor: pointer;
+}
+
+#arthi-gmail{
+  margin-left:-80%;
 }
