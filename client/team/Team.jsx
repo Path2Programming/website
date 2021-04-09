@@ -42,7 +42,7 @@ function Team() {
         <p>Pranav Gangumolu</p>
         <p id="title">Head of Logistics</p>
 
-        <a href="https://www.instagram.com/theofficial_pranav/" target="_blank">
+        <a href="https://www.instagram.com/theofficial_pranav/" target="_blank" rel="noreferrer">
           <input className="instagram" id="pranav-instagram" type="button"></input>
         </a>
 
