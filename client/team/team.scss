@@ -33,11 +33,11 @@ select:focus {
 
   p {
     position: relative;
-    margin-top: 0.5vh;
+    // margin-top: 0.5vh;
 
     color: $white;
-    text-align: left;
-    margin-left: 1vw;
+    // text-align: left;
+    // margin-left: 1vw;
 
     font-size: 1.5vw;
   }
@@ -52,8 +52,8 @@ select:focus {
 }
 
 #title {
-  position: relative;
-  margin-top: -2vh;
+  // position: relative;
+  // margin-top: -2vh; 
 
   font-size: 1.2vw;
 
@@ -62,17 +62,38 @@ select:focus {
   color: $super-light-gray;
 }
 
+.text{
+  width: 19vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+  z-index: 1;
+}
+
 .pfp {
-  // background-size: 20vw;
+  background-size: 20vw;
+  background-repeat: no-repeat;
 
   width: 19.5vw;
-  height: auto;
+  height: 40vh;
 
   border-radius: inherit;
 
   position: relative;
   top: 0.5vh;
   // left: 0.1vw;
+
+  z-index: 0;
+}
+
+#adi-pfp{
+  background-image: url('../images/AdiPfp2.jpeg');
+}
+#pranav-pfp{
+  background-image: url('../images/PranavPfp.jpeg');
 }
 
 
@@ -121,8 +142,8 @@ $icon-border-radius: 100vw;
   border-radius: $icon-border-radius;
 
   position: relative;
-  margin-left: -40%;
-  margin-top: 1%;
+  // margin-left: -40%;
+  // margin-top: 1%;
 
   cursor: pointer;
 }
@@ -139,8 +160,8 @@ $icon-border-radius: 100vw;
   border-radius: $icon-border-radius;
 
   position: relative;
-  margin-left: 5%;
-  margin-top: 1%;
+  // margin-left: 5%;
+  // margin-top: 1%;
 
     cursor: pointer;
 }
@@ -157,8 +178,8 @@ $icon-border-radius: 100vw;
     border-radius: 20px;
 
     position: relative;
-    margin-left: -60%;
-    margin-top: 1%;
+    // margin-left: -60%;
+    // margin-top: 1%;
 
     cursor: pointer;
 }
@@ -175,8 +196,17 @@ $icon-border-radius: 100vw;
     border-radius: 25px;
 
     position: relative;
-    margin-left: 5%;
-    margin-top: 1%;
+    // margin-left: 5%;
+    // margin-top: 1%;
 
     cursor: pointer;
+}
+
+
+.icons{
+  width: 20vw;
+  // height: 60vh;
+  display: flex;
+  justify-content: flex-start;
+  // align-items:flex-end;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import AdiPfp from '../images/AdiPfp.jpeg';
-import PranavPfp from '../images/PranavPfp.jpeg';
+// import AdiPfp from '../images/AdiPfp.jpeg';
+// import PranavPfp from '../images/PranavPfp.jpeg';
 
 import './team.scss';
 
@@ -12,37 +12,46 @@ function Team() {
       <div id="members">
         <div className="cards">
           <div className="profile" id="Adi">
-            {/* <div className="pfp" id="adi-pfp"></div> */}
-            <img src={AdiPfp} className="pfp" />
-            <p>Aditya Gollamudi</p>
-            <p id="title">Founder and Executive Director</p>
+            <div className="pfp" id="adi-pfp"></div>
+            {/* <img src={AdiPfp} className="pfp" /> */}
+            <div className="text">
+              <p className="name">Aditya Gollamudi</p>
+              <p id="title">Founder and Executive Director</p>
+            </div>
 
-            {/* <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
-          <input className="linkedIn" id="AdiLI" type="button"></input>
-        </a>
+            <div className="icons">
+              <a href="https://www.linkedin.com/in/aditya-gollamudi/" target="_blank" rel="noreferrer">
+                <input className="linkedIn" id="AdiLI" type="button"></input>
+              </a>
 
-        <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
-          <input className="GitHub" id="AdiGH" type="button"></input>
-        </a>
+              <a href="https://github.com/Adi-Goll" target="_blank" rel="noreferrer">
+                <input className="GitHub" id="AdiGH" type="button"></input>
+              </a>
 
-        <a href="mailto:adigollamudi@gmail.com">
-          <input className="gmail" id="adi-gmail" type="button"></input>
-        </a> */}
+              <a href="mailto:adigollamudi@gmail.com">
+                <input className="gmail" id="adi-gmail" type="button"></input>
+              </a>
+            </div>
+
           </div>
 
           <div className="profile" id="Pranav">
-            {/* <div className="pfp" id="pranav-pfp"></div> */}
-            <img src={PranavPfp} className="pfp" />
-            <p>Pranav Gangumolu</p>
-            <p id="title">Head of Logistics</p>
-            {/* 
-        <a href="https://www.instagram.com/theofficial_pranav/" target="_blank" rel="noreferrer">
-          <input className="instagram" id="pranav-instagram" type="button"></input>
-        </a>
+            <div className="pfp" id="pranav-pfp"></div>
+            {/* <img src={PranavPfp} className="pfp" /> */}
+            <div className="text">
+              <p className="name">Pranav Gangumolu</p>
+              <p id="title">Head of Logistics</p>
+            </div>
 
-        <a href="mailto:pranavgangumolu@gmail.com">
-          <input className="gmail" id="pranav-gmail" type="button"></input>
-        </a> */}
+            <div className="icons">
+              <a href="https://www.instagram.com/theofficial_pranav/" target="_blank" rel="noreferrer">
+                <input className="instagram" id="pranav-instagram" type="button"></input>
+              </a>
+
+              <a href="mailto:pranavgangumolu@gmail.com">
+                <input className="gmail" id="pranav-gmail" type="button"></input>
+              </a>
+            </div>
           </div>
         </div>
 
