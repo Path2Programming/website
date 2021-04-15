@@ -9,21 +9,13 @@ $background: rgb(226, 226, 212);
 $test: rgb(163, 82, 238);
 $super-light-gray: rgb(226, 225, 225);
 
+
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
 }
 
-#header {
-  background-color: inherit;
-  color: $dark-gray;
-
-  font-size: 400%;
-
-  position: relative;
-  margin-top: -1%;
-}
 .profile {
   background-color: $dark-gray;
 
@@ -32,8 +24,8 @@ select:focus {
   width: 20vw;
   height: 60vh;
 
-  position: absolute;
-  top: 20%;
+  // position: absolute;
+  // top: 20%;
 
   text-align: center;
 
@@ -41,7 +33,7 @@ select:focus {
 
   p {
     position: relative;
-    margin-top: 5%;
+    margin-top: 0.5vh;
 
     color: $white;
     text-align: left;
@@ -49,11 +41,14 @@ select:focus {
 
     font-size: 1.5vw;
   }
+
+  z-index: 1;
+
 }
 
 #title {
   position: relative;
-  margin-top: -5%;
+  margin-top: -2vh;
 
   font-size: 1.2vw;
 
@@ -63,62 +58,47 @@ select:focus {
 }
 
 .pfp {
-  background-image: url('../images/AdiPfp.jpeg');
-  background-size: 100%;
+  // background-size: 20vw;
 
-  width: 98%;
-  height: 70%;
-
-  display: block;
+  width: 19.5vw;
+  height: auto;
 
   border-radius: inherit;
 
   position: relative;
-  top: 1%;
-  left: 1%;
-}
-
-#adi-pfp{
-    background-image: url('../images/AdiPfp.jpeg');
-    background-size: 100%;
-}
-
-#pranav-pfp{
-    background-image: url('../images/PranavPfp.jpeg');
-    background-size: 100%;
-}
-
-#arthi-pfp{
-  background-image: url('../images/ArthiPfp2.jpeg');
-  background-size: 100%;
+  top: 0.5vh;
+  // left: 0.1vw;
 }
 
 
-#Adi{
-    left: 10%;
-}
-
-#Arthi {
-  left: 40%;
-}
-
-#Pranav {
-  left: 70%;
-}
+$height: 75vh;
 
 #members {
   background-color: $light-gray;
 
-  width: 90%;
-  height: 75%;
+  width: 60vw;
+  height: $height;
 
-  position: absolute;
-
-  top: 15%;
-  left: 5%;
+  // position: absolute;
+  // top: 15vh;
+  // left: 20vw;
 
   border-radius: 10px;
+
+  z-index: 0;
 }
+
+
+.cards{
+  height: $height;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  z-index: 1;
+}
+
 
 $icon-height: 3vw;
 $icon-width: 3vw;
@@ -194,8 +174,4 @@ $icon-border-radius: 100vw;
     margin-top: 1%;
 
     cursor: pointer;
-}
-
-#arthi-gmail{
-  margin-left:-80%;
 }
