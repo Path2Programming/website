@@ -13,7 +13,7 @@ function Team() {
         <div className="cards">
           <div className="profile" id="Adi">
             <div className="pfp" id="adi-pfp"></div>
-            {/* <img src={AdiPfp} className="pfp" /> */}
+            {/* <img src={AdiPfp} className="pfp" id="adi-pfp" /> */}
             <div className="text">
               <p className="name">Aditya Gollamudi</p>
               <p id="title">Founder and Executive Director</p>

@@ -74,11 +74,11 @@ select:focus {
 }
 
 .pfp {
-  background-size: 20vw;
-  background-repeat: no-repeat;
-
   width: 19.5vw;
-  height: 40vh;
+  height: 50vh;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
 
   border-radius: inherit;
 
@@ -90,7 +90,7 @@ select:focus {
 }
 
 #adi-pfp{
-  background-image: url('../images/AdiPfp2.jpeg');
+  background-image: url('../images/AdiPfp.jpeg');
 }
 #pranav-pfp{
   background-image: url('../images/PranavPfp.jpeg');
