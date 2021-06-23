@@ -12,7 +12,7 @@ import './App.scss';
 class App extends Component {
   // This method returns a list of links we want in the navbar
   generateNavbarItems() {
-    return ['Home', 'About', 'Why us', 'Sign up for a lesson'];
+    return ['Home', 'About', 'Sign up for a lesson'];
   }
 
   render() {
@@ -43,10 +43,6 @@ class App extends Component {
                 <About />
               </Route>
 
-              {/* If the URL is /why-us render the Homepage component */}
-              <Route path="/why-us">
-                <WhyUs />
-              </Route>
 
               {/* If the URL is /sign-up-for-a-lesson render the Homepage component */}
               <Route path="/sign-up-for-a-lesson">
