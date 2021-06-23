@@ -6,14 +6,13 @@ import Homepage from '../homepage/Homepage';
 import About from '../about/About';
 import WhyUs from '../why-us/WhyUs';
 import LessonSignup from '../lesson-signup/LessonSignup';
-import Team from '../team/Team';
 
 import './App.scss';
 
 class App extends Component {
   // This method returns a list of links we want in the navbar
   generateNavbarItems() {
-    return ['Home', 'About', 'Why us', 'Sign up for a lesson', 'Meet the team'];
+    return ['Home', 'About', 'Why us', 'Sign up for a lesson'];
   }
 
   render() {
@@ -52,11 +51,6 @@ class App extends Component {
               {/* If the URL is /sign-up-for-a-lesson render the Homepage component */}
               <Route path="/sign-up-for-a-lesson">
                 <LessonSignup />
-              </Route>
-
-              {/* If the URL is /meet-the-team render the Homepage component */}
-              <Route path="/meet-the-team">
-                <Team />
               </Route>
             </div>
           </Switch>
