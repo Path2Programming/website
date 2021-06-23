@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { Redirect, Route } from 'react-router';
 import './lesson-signup.scss'
 
 function LessonSignup() {
-  const clickHandler = (event) => {
-    // event.preventDefault();
-    alert('thank you for submitting!');
-  };
+  const [signedUp, signUp] = useState(false);
+
 
   return (
     <div id="page">
@@ -28,11 +25,12 @@ function LessonSignup() {
           <input id="name" name="fullName" className="item" type="text" placeholder="Full Name"></input>
 
 
-          <input type="submit" value="Submit" id="sign-up-button" onClick={clickHandler}></input>
+          <input type="submit" value="Submit" id="sign-up-button"></input>
         </form>
       </div>
     </div>
   )
+
 
 }
 
