@@ -1,9 +1,25 @@
 import React, { useState } from 'react';
 import './lesson-signup.scss'
 
-function LessonSignup() {
-  const [signedUp, signUp] = useState(false);
+const axios = require('axios');
 
+
+function LessonSignup() {
+  const formSubmit = (event) => {
+    // event.preventDefault();
+    const reqBody = {
+      lesson: event.target.lesson.value,
+      email: event.target.email.value,
+      name: event.target.name.value,
+    }
+
+    axios({
+      method: 'post',
+      url: 'http://localhost:5000/signup',
+      data: reqBody
+    });
+
+  }
 
   return (
     <div id="page">
@@ -11,8 +27,7 @@ function LessonSignup() {
         <h3 id="page-title">Lesson Signup</h3>
         <form
           id="sign-up-form"
-          action="http://localhost:5000/signup"
-          method="POST"
+          onSubmit={formSubmit}
         >
           <select name="lesson" id="upcoming-lessons" className="item" >
             <option disabled selected value="">Upcoming Lessons</option>
@@ -30,7 +45,6 @@ function LessonSignup() {
       </div>
     </div>
   )
-
 
 }
 
