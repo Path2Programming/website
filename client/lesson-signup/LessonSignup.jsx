@@ -6,13 +6,13 @@ const axios = require('axios');
 
 function LessonSignup() {
   const formSubmit = (event) => {
-    // event.preventDefault();
     const reqBody = {
       lesson: event.target.lesson.value,
       email: event.target.email.value,
       name: event.target.name.value,
     }
 
+    alert("Thank you for submitting!");
     axios({
       method: 'post',
       url: 'http://localhost:5000/signup',

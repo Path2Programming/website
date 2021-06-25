@@ -9,7 +9,7 @@ const sendEmail = async (message) => {
     const emailMsg = {
         to: 'adigollamudi@gmail.com', // Change to your recipient
         from: 'aditya@path2programming.com', // Change to your verified sender
-        subject: 'New P2P lesson singup',
+        subject: 'New P2P lesson signup',
         text: message,
     }
 
