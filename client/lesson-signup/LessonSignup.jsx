@@ -31,7 +31,7 @@ function LessonSignup() {
         >
           <select name="lesson" id="upcoming-lessons" className="item" >
             <option disabled selected value="">Upcoming Lessons</option>
-            <option value="Q&A Session">06/15/2021 6:00pm EST - Q&A Session</option>
+            <option value="First Cohort">07/07/2021- First Cohort</option>
           </select>
 
           <input id="email" name="email" className="item" type="text" placeholder="Email Address"></input>
