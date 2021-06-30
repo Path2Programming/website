@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './lesson-signup.scss'
 
 const axios = require('axios');
