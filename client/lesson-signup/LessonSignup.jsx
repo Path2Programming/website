@@ -1,3 +1,4 @@
+import React from 'react';
 import './lesson-signup.scss'
 
 const axios = require('axios');
