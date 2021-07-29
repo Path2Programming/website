@@ -6,11 +6,10 @@ const sendGridMail = require('@sendgrid/mail')
 sendGridMail.setApiKey(SEND_GRID_API_KEY);
 
 const sendEmail = async (message) => {
-    console.log("in email function");
     const emailMsg = {
         to: 'adigollamudi@gmail.com', // Change to your recipient
         from: 'aditya@path2programming.com', // Change to your verified sender
-        subject: 'New P2P lesson singup',
+        subject: 'New P2P lesson signup',
         text: message,
     }
 

@@ -1,9 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './lesson-signup.scss'
 
-function LessonSignup() {
-  const [signedUp, signUp] = useState(false);
+const axios = require('axios');
 
+
+function LessonSignup() {
+  const formSubmit = (event) => {
+    const reqBody = {
+      lesson: event.target.lesson.value,
+      email: event.target.email.value,
+      name: event.target.name.value,
+    }
+
+    alert("Thank you for submitting!");
+    axios({
+      method: 'post',
+      url: 'http://localhost:5000/signup',
+      data: reqBody
+    });
+
+  }
 
   return (
     <div id="page">
@@ -11,12 +27,11 @@ function LessonSignup() {
         <h3 id="page-title">Lesson Signup</h3>
         <form
           id="sign-up-form"
-          action="http://localhost:5000/signup"
-          method="POST"
+          onSubmit={formSubmit}
         >
           <select name="lesson" id="upcoming-lessons" className="item" >
             <option disabled selected value="">Upcoming Lessons</option>
-            <option value="Q&A Session">06/15/2021 6:00pm EST - Q&A Session</option>
+            <option value="First Cohort">07/07/2021- First Cohort</option>
           </select>
 
           <input id="email" name="email" className="item" type="text" placeholder="Email Address"></input>
@@ -30,7 +45,6 @@ function LessonSignup() {
       </div>
     </div>
   )
-
 
 }
 

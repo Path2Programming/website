@@ -2,7 +2,7 @@ const Router = require('express');
 
 const express = require('express');
 const cors = require('cors');
-const singupRouter = require('./signupFormRoute');
+const signupRouter = require('./signupFormRoute');
 
 
 const app = express();
@@ -17,4 +17,4 @@ app.use(express.urlencoded({ extended: true }));
 app.listen(PORT, () => console.log(`server started on port ${PORT}`));
 app.use(cors());
 
-app.use('/signup', singupRouter);
+app.use('/signup', signupRouter);
