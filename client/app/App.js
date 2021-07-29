@@ -27,9 +27,10 @@ class App extends Component {
           stress too much over what it does */}
           <Switch>
             <div className="content">
-              {/* If the URL is exactly / render the Homepage component */}
+              {/* If the URL is exactly / render the Lesson Sign up component */}
+              {/* Temporary: only for first cohort sign ups */}
               <Route exact path="/">
-                <Homepage />
+                <LessonSignup />
               </Route>
 
               {/* If the URL is /home render the Homepage component */}
