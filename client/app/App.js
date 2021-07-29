@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 import About from '../about/About';
-import WhyUs from '../why-us/WhyUs';
 import LessonSignup from '../lesson-signup/LessonSignup';
 
 import './App.scss';
