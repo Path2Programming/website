@@ -15,7 +15,7 @@ function LessonSignup() {
     alert("Thank you for submitting!");
     axios({
       method: 'post',
-      url: 'http://localhost:5000/signup',
+      url: 'http://18.116.49.98:5000/signup',
       data: reqBody
     });
 
