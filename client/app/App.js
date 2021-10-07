@@ -5,7 +5,6 @@ import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 import About from '../about/About';
 import LessonSignup from '../lesson-signup/LessonSignup';
-import P2PLogo from '../images/logo.jpg';
 
 import './App.scss';
 
@@ -21,7 +20,6 @@ class App extends Component {
       // Don't stress about it too much - not very important
       <Router>
         <div className="App">
-          <img className="nav-bar-logo" src={P2PLogo} alt="P2P Logo" />
           <Navbar items={this.generateNavbarItems()} />
 
           {/* Switch basically allows you to conditionally render various components

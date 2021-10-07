@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 import './navbar.scss';
 
+import P2PLogo from '../images/logo.jpg';
+
+
 class Navbar extends Component {
   // This method takes the list of strings we get in props and converts them into links
   generateNavbarElements() {
@@ -38,7 +41,13 @@ class Navbar extends Component {
   }
 
   render() {
-    return <div className="navbar">{this.generateNavbarElements()}</div>;
+    return <div className="navbar">
+      <img className="nav-bar-logo" src={P2PLogo} alt="P2P Logo" />
+      {this.generateNavbarElements()}
+
+
+    </div>;
+
   }
 }
 
