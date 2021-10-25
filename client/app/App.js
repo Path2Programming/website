@@ -5,6 +5,7 @@ import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 import About from '../about/About';
 import LessonSignup from '../lesson-signup/LessonSignup';
+import Footer from '../footer/Footer';
 
 import './App.scss';
 
@@ -21,7 +22,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar items={this.generateNavbarItems()} />
-
+          <Footer />
           {/* Switch basically allows you to conditionally render various components
           based on the current URL. This is also a kind of wrapper, so don't
           stress too much over what it does */}
