@@ -22,7 +22,6 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar items={this.generateNavbarItems()} />
-          <Footer />
           {/* Switch basically allows you to conditionally render various components
           based on the current URL. This is also a kind of wrapper, so don't
           stress too much over what it does */}
@@ -49,6 +48,8 @@ class App extends Component {
               <Route path="/sign-up-for-a-lesson">
                 <LessonSignup />
               </Route>
+
+              <Footer />
             </div>
           </Switch>
         </div>
