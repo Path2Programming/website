@@ -10,6 +10,12 @@
     width: 100%;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 .list-unstyled{
     list-style: none;
