@@ -15,7 +15,7 @@ function LessonSignup() {
     alert("Thank you for submitting!");
     axios({
       method: 'post',
-      url: 'http://ec2-18-116-49-98.us-east-2.compute.amazonaws.com:5000/signup',
+      url: '18.116.49.98:5000/signup',
       data: reqBody
     });
 
