@@ -1,25 +1,8 @@
 import React from 'react';
 import './lesson-signup.scss'
 
-const axios = require('axios');
-
 
 function LessonSignup() {
-  const formSubmit = (event) => {
-    const reqBody = {
-      lesson: event.target.lesson.value,
-      email: event.target.email.value,
-      name: event.target.name.value,
-    }
-
-    alert("Thank you for submitting!");
-    axios({
-      method: 'post',
-      url: 'ec2-18-116-49-98.us-east-2.compute.amazonaws.com:5000/signup',
-      data: reqBody
-    });
-
-  }
 
   return (
     <div id="page">
@@ -27,7 +10,8 @@ function LessonSignup() {
         <h3 id="page-title">Lesson Signup</h3>
         <form
           id="sign-up-form"
-          onSubmit={formSubmit}
+          action="http://18.116.49.98:5000/signup"
+          method="POST"
         >
           <select name="lesson" id="upcoming-lessons" className="item" >
             <option disabled selected value="">Upcoming Lessons</option>
@@ -37,7 +21,7 @@ function LessonSignup() {
           <input id="email" name="email" className="item" type="text" placeholder="Email Address"></input>
 
 
-          <input id="name" name="fullName" className="item" type="text" placeholder="Full Name"></input>
+          <input id="name" name="name" className="item" type="text" placeholder="Full Name"></input>
 
 
           <input type="submit" value="Submit" id="sign-up-button"></input>

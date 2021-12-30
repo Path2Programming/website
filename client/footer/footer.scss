@@ -1,0 +1,27 @@
+@import '../styles';
+
+.main-footer{
+    color: white;
+    background-color: $black;
+
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.list-unstyled{
+    list-style: none;
+}
+
+
+.col{
+    text-align:center;
+}
