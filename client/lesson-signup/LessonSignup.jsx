@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './lesson-signup.scss'
 
 const axios = require('axios');
@@ -12,7 +12,6 @@ function LessonSignup() {
         <h3 id="page-title">Lesson Signup</h3>
         <form
           id="sign-up-form"
-          // onSubmit={formSubmit}
           action="http://18.116.49.98:5000/signup"
           method="POST"
         >
