@@ -5,23 +5,6 @@ const axios = require('axios');
 
 
 function LessonSignup() {
-  // const formSubmit = (event) => {
-  //   const reqBody = {
-  //     lesson: event.target.lesson.value,
-  //     email: event.target.email.value,
-  //     name: event.target.name.value,
-  //   }
-  //   console.log(reqBody)
-
-  //   alert("Thank you for submitting!");
-  //   axios({
-  //     method: 'post',
-  //     url: 'http://18.116.49.98:5000/signup',
-  //     data: reqBody
-  //   });
-
-  // }
-
 
   return (
     <div id="page">
