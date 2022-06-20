@@ -5,34 +5,55 @@
   flex-direction: row;
   justify-content: start;
 
-  background-color: $black;
+  background-color: $white;
 
-  // box-shadow: 0px 3px 10px #c0c0c0;
+  box-shadow: 0px 2px 5px #c0c0c0;
   z-index: 1;
 }
 
-.navlink {
+// .navlink {
+
+//   color: $primary;
+
+// }
+
+.navlink-animation {
+  display: inline-block;
+  position: relative;
+  color: $primary;
+
+  text-decoration: none;
+
   margin: 0.5vh;
   padding: 1.5vh;
 
-  text-decoration: none;
   font-size: 1.2vw;
 
   border-radius: 15px;
-
-  color: $white;
-
-  &:hover {
-    background-color: $light-black;
-    transition: 0.5s;
-  }
 }
 
-.active {
-  color: $primary !important;
+.navlink-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.2vh;
+  bottom: 0;
+  left: 0;
+  background-color: $primary;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
 }
 
-.nav-bar-logo{
+.navlink-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+
+// .active {}
+
+.nav-bar-logo {
   width: 3rem;
   height: 3rem;
 

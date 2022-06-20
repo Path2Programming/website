@@ -30,7 +30,7 @@ class App extends Component {
               {/* If the URL is exactly / render the Lesson Sign up component */}
               {/* Temporary: only for first cohort sign ups */}
               <Route exact path="/">
-                <LessonSignup />
+                <Homepage />
               </Route>
 
               {/* If the URL is /home render the Homepage component */}

@@ -10,7 +10,7 @@ function LessonSignup() {
         <h3 id="page-title">Lesson Signup</h3>
         <form
           id="sign-up-form"
-          action="http://18.116.49.98:5000/signup"
+          action="http://localhost:5000/signup"
           method="POST"
         >
           <select name="lesson" id="upcoming-lessons" className="item" >

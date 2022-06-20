@@ -28,7 +28,7 @@ class Navbar extends Component {
       return (
         <NavLink
           to={redirectPath}
-          className="navlink"
+          className="navlink-animation"
           activeClassName="active"
           key={`${item}-${idx}`}
         >

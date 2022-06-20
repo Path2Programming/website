@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
     const message = `Lesson: ${req.body.lesson},\nFull name: ${req.body.name},\nEmail: ${req.body.email}`
 
     await sendEmail(message);
-    // console.log("\nEmail has been sent\n");
+    console.log("\nEmail has been sent\n");
 
     return res.sendStatus(200);
 });
