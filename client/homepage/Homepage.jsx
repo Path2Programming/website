@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './homepage.scss';
-import Kentucky from '../images/kentucky-map.png';
 import Bridge from '../images/bridge-in-forest.jpg';
 
 class Homepage extends Component {
