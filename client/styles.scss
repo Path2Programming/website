@@ -1,5 +1,6 @@
 // Import Open Sans font
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 // Variables
 $primary: rgb(70, 236, 153);
@@ -10,7 +11,7 @@ $background: rgb(116, 116, 116);
 
 $black: #000;
 $light-black: rgb(45, 45, 45);
-$light-gray: rgb(173,173,173);
+$light-gray: rgb(173, 173, 173);
 
 
 $white: #fff;
@@ -25,7 +26,7 @@ $light-white: rgb(224, 224, 224);
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 html,

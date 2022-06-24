@@ -6,23 +6,47 @@
     position: relative;
     top: 10em;
     left: 50em;
+
+    width: 40vw;
+    height: 40vh;
+}
+
+.title {
+    color: $primary;
+    font-style: italic;
+
+    font-size: 4vh;
+}
+
+.mission {
+    text-align: center;
+}
+
+#mission-description {
+    font-size: 3vh;
 }
 
 #tutorials {
-    color: $primary;
     margin-left: 5vh;
-    font-style: italic;
+    margin-top: -20vh;
 
-    margin-top: -10vh;
+    margin-bottom: 1vh;
 }
 
 
-#vid-description {
+.description {
     width: 50vw;
     margin-left: 5vh;
+    margin-bottom: 1vh;
+
+    font-size: 3vh;
+
 }
 
-
+#indiv-lessons {
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+}
 
 #centered {
     position: absolute;
@@ -58,5 +82,33 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    font-size: 10vh;
+    font-size: 7vw;
+}
+
+#partners {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#logo-strip {
+    display: flex;
+    flex-direction: row;
+
+    height: 20vh;
+    width: 40vw;
+
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+
+
+#awesome {
+    background-color: $black;
+    margin-top: -1.2vw;
+
+    height: 25vh;
+}
+
+#ekcep {
+    width: 25vw;
 }
