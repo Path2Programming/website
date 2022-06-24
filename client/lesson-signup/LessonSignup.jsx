@@ -29,8 +29,8 @@ function LessonSignup() {
     //   </div>
     // </div>
     <div>
-      <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSeYRjOprDli2zKydH7LvLmbrrrNJDwEYu3sY-Ss7kRTTsaq0A/viewform?embedded=true"
-        scrolling="no"></iframe>
+      <iframe id="google-signup-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeYRjOprDli2zKydH7LvLmbrrrNJDwEYu3sY-Ss7kRTTsaq0A/viewform?embedded=true"
+        scrolling="no" title="myFrame"></iframe>
     </div>
   )
 
