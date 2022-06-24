@@ -1,0 +1,124 @@
+@import '../styles';
+
+.YouTube-video {
+    display: block;
+
+    position: relative;
+    top: 10em;
+    left: 50em;
+
+    width: 40vw;
+    height: 40vh;
+}
+
+.title {
+    color: $primary;
+    font-style: italic;
+
+    font-size: 4vh;
+}
+
+.mission {
+    text-align: center;
+}
+
+#mission-description {
+    font-size: 3vh;
+}
+
+#tutorials {
+    margin-left: 5vh;
+    margin-top: -20vh;
+
+    margin-bottom: 1vh;
+}
+
+
+.description {
+    width: 50vw;
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+
+    font-size: 3vh;
+
+}
+
+#indiv-lessons {
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+}
+
+#centered {
+    position: absolute;
+    top: 65%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+
+    font-size: 4vh;
+}
+
+
+.header {
+    height: 60vh;
+    display: block;
+
+    background: transparent url(../images/white-flowers.jpg);
+    background-attachment: fixed;
+
+    filter: brightness(55%);
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+#center-text {
+    color: $white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 7vw;
+}
+
+#partners {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.logo-strip {
+    display: flex;
+    flex-direction: row;
+
+    height: 20vh;
+    width: 50vw;
+
+    margin-left: 10vh;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+
+}
+
+#scroll {
+    width: 86vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    // margin-left: 1;
+}
+
+#awesome {
+    background-color: $black;
+    margin-top: -2vh;
+    height: 25vh;
+}
+
+#ekcep {
+    height: 15vh;
+    margin-top: 2vh;
+}
