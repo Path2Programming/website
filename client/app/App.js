@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
-import About from '../about/About';
+// import About from '../about/About';
 import LessonSignup from '../lesson-signup/LessonSignup';
 import Footer from '../footer/Footer';
 
@@ -12,7 +12,7 @@ import './App.scss';
 class App extends Component {
   // This method returns a list of links we want in the navbar
   generateNavbarItems() {
-    return ['Home', 'About', 'Sign up for a lesson'];
+    return ['Home', 'Sign up'];
   }
 
   render() {
@@ -39,9 +39,9 @@ class App extends Component {
               </Route>
 
               {/* If the URL is /about render the Homepage component */}
-              <Route path="/about">
+              {/* <Route path="/about">
                 <About />
-              </Route>
+              </Route> */}
 
 
               {/* If the URL is /sign-up-for-a-lesson render the Homepage component */}
