@@ -44,8 +44,8 @@ class App extends Component {
               </Route> */}
 
 
-              {/* If the URL is /sign-up-for-a-lesson render the Homepage component */}
-              <Route path="/sign-up-for-a-lesson">
+              {/* If the URL is /sign-up render the Homepage component */}
+              <Route path="/sign-up">
                 <LessonSignup />
               </Route>
 

@@ -90,25 +90,35 @@
     text-align: center;
 }
 
-#logo-strip {
+.logo-strip {
     display: flex;
     flex-direction: row;
 
     height: 20vh;
-    width: 40vw;
+    width: 50vw;
 
     margin-left: 10vh;
-    margin-top: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+
 }
 
+#scroll {
+    width: 86vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    // margin-left: 1;
+}
 
 #awesome {
     background-color: $black;
-    margin-top: -1.2vw;
-
+    margin-top: -2vh;
     height: 25vh;
 }
 
 #ekcep {
-    width: 25vw;
+    height: 15vh;
+    margin-top: 2vh;
 }

@@ -45,14 +45,14 @@ class Homepage extends Component {
 
         <div>
           <div id="partners" className='title'>P2P Partners and Supporters</div>
-          <div id="logo-strip">
+          <div className="logo-strip" id="scroll">
             <img src={soar} alt="soar company logo" />
             <img id="awesome" src={awesomeinc} alt="awesomeinc company logo" />
-            <img id="interapt" src={interapt} alt="interapt company logo" />
             <img id="ekcep" src={EKCEP} alt="EKCEP company logo" />
+            <img id="interapt" src={interapt} alt="interapt company logo" />
           </div>
-        </div>
 
+        </div>
       </div>
     );
   }
