@@ -36,7 +36,7 @@ class Footer extends Component {
                                 <a href="https://www.facebook.com/path2programming" target="_blank" rel="noreferrer">
                                     <img className="icon" src={facebook} alt="facebook icon" />
                                 </a>
-                                <a href="youtube.com/channel/UC-bAIxpqhTpyHvkdCi1-_3g" target="_blank" rel="noreferrer">
+                                <a href="https://youtube.com/channel/UC-bAIxpqhTpyHvkdCi1-_3g" target="_blank" rel="noreferrer">
                                     <img className="icon" src={youtube} alt="youtube icon" />
                                 </a>
                             </div>
