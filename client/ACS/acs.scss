@@ -1,3 +1,5 @@
+@import '../styles';
+
 #acs-google-form {
     width: 100vw;
     height: 240vh;
@@ -7,6 +9,93 @@
 #agenda {
     width: 50vw;
     height: 100vh;
+}
+
+.acstitle {
+    color: $black;
+    font-style: normal;
+    font-size: 4vh;
+}
+
+.acs-sub-title {
+    color: $black;
+    font-style: italic;
+    font-size: 3.5vh;
+}
+
+#info-container {
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#what-is-acs-container {
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    text-align: center;
+
+    min-width: 300px;
+
+    min-height: 50vh;
+}
+
+#spacer {
+    padding-bottom: -3vh;
+}
+
+
+#text {
+    position: relative;
+    font-size: 2.5vh;
+    margin-bottom: 1.5em;
+}
+
+#speaker-container {
+    width: 50vw;
+
+    padding-top: 2vh;
+    text-align: center;
+
+    min-width: 300px;
+}
+
+
+
+
+
+
+//download button styling
+$button-bg-color: #3498db;
+$button-text-color: #fff;
+$button-hover-bg-color: #2980b9;
+$button-hover-text-color: #fff;
+$button-border-radius: 5px;
+$button-padding: 10px 20px;
+$button-font-size: 16px;
+$button-font-weight: bold;
+$button-transition: 0.3s;
+
+#download-button {
+    display: inline-block;
+    background-color: $button-bg-color;
+    color: $button-text-color;
+    padding: $button-padding;
+    border-radius: $button-border-radius;
+    text-decoration: none;
+    font-size: $button-font-size;
+    font-weight: $button-font-weight;
+    transition: background-color $button-transition, color $button-transition;
+
+    &:hover {
+        background-color: $primary;
+        color: $button-hover-text-color;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
 }
 
 

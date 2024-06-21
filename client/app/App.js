@@ -5,7 +5,7 @@ import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 // import About from '../about/About';
 import Footer from '../footer/Footer';
-import Acs from '../ACS/Acs';
+import Acs from '../acs/AppCompSymposium';
 
 import './App.scss';
 
