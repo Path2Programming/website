@@ -5,13 +5,14 @@ import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 // import About from '../about/About';
 import Footer from '../footer/Footer';
+import Acs from '../ACS/Acs';
 
 import './App.scss';
 
 class App extends Component {
   // This method returns a list of links we want in the navbar
   generateNavbarItems() {
-    return ['Home'];
+    return ['Home', 'ACS'];
   }
 
   render() {
@@ -35,6 +36,11 @@ class App extends Component {
               {/* If the URL is /home render the Homepage component */}
               <Route path="/home">
                 <Homepage />
+              </Route>
+
+              {/*If the URL is /ACS render the Acs component */}
+              <Route path="/ACS">
+                <Acs />
               </Route>
 
               {/* If the URL is /about render the Homepage component */}
