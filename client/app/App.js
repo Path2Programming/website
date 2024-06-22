@@ -11,6 +11,7 @@ import './App.scss';
 
 class App extends Component {
   // This method returns a list of links we want in the navbar
+
   generateNavbarItems() {
     return ['Home', 'ACS'];
   }
