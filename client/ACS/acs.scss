@@ -141,6 +141,8 @@
 
 
 
+
+
 //download button styling
 $button-bg-color: #3498db;
 $button-text-color: #fff;
@@ -184,6 +186,7 @@ $button-transition: 0.3s;
     @media (max-width: 1000px) {
         margin-top: 5vh;
         min-height: 20vh;
+        min-width: 30vw;
 
     }
 }
