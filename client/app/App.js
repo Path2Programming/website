@@ -4,15 +4,15 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 import Homepage from '../homepage/Homepage';
 // import About from '../about/About';
+import LessonSignup from '../lesson-signup/LessonSignup';
 import Footer from '../footer/Footer';
-import Acs from '../acs/AppCompSymposium';
 
 import './App.scss';
 
 class App extends Component {
   // This method returns a list of links we want in the navbar
   generateNavbarItems() {
-    return ['Home', 'ACS'];
+    return ['Home', 'Sign up'];
   }
 
   render() {
@@ -38,15 +38,16 @@ class App extends Component {
                 <Homepage />
               </Route>
 
-              {/*If the URL is /ACS render the Acs component */}
-              <Route path="/ACS">
-                <Acs />
-              </Route>
-
               {/* If the URL is /about render the Homepage component */}
               {/* <Route path="/about">
                 <About />
               </Route> */}
+
+
+              {/* If the URL is /sign-up render the Homepage component */}
+              <Route path="/sign-up">
+                <LessonSignup />
+              </Route>
 
               <Footer />
             </div>
