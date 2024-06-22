@@ -13,6 +13,7 @@ function Acs() {
             name: 'Michael Taylor',
             description: 'Instructor for the introductory computer science series at CMU. Awarded the Herbert A. Simon Award for Teaching Excellence in Computer Science. His work focuses on robotics with a strong background in electrical and computer engineering. (TOPIC: Robotics and how to engage in self-directed projects to learn about programming and computer science)',
             image: MTPic
+
         },
         {
             name: 'Melissa Winstanley',
